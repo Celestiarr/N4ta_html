@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: end;
+            height: 100px;
+            background-color: black;
+        }
+
+        .flex-item {
+            background-color: chocolate;
+            color: chartreuse;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 100px;
+            padding: 20px;
+            background-color: black;
+        }
+
+        .grid-item {
+            background-color: chocolate;
+            color: chartreuse;
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">Barang 1</div>
+        <div class="flex-item">Barang 2</div>
+        <div class="flex-item">Barang 3</div>
+        <div class="flex-item">Barang 4</div>
+     
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">Barang 1</div>
+        <div class="grid-item">Barang 2</div>
+        <div class="grid-item">Barang 3</div>
+        <div class="grid-item">Barang 4</div>
+        <div class="grid-item">Barang 5</div>
+        <div class="grid-item">Barang 6</div>
+        <div class="grid-item">Barang 7</div>
+        <div class="grid-item">Barang 8</div>
+    </div>
+    
+</body>
+</html>
